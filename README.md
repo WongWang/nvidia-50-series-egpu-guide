@@ -16,6 +16,8 @@ If you are using Windows on the same computer, you can check if this is already 
 
 It would be great if you could set this to disabled directly in your BIOS GUI. If you can, and you are not using dual boot (which means you do not use Windows and Linux on the same computer), you can just disable it and go straight to 2.2. ***However, if you do use dual boot, no matter if Windows and Linux are on the same hard disk or not, please read 2.1, or you might run into problems when booting into Windows.***
 
+> Note: This is only intended to share my experience, try the following at your own risk.
+
 ## 2.1 Disable Kernel DMA Protection
 
 Although most laptop BIOSes do not have this option in the BIOS GUI, it is still possible to disable it by directly editing the BIOS config at the lowest level (i.e., changing the corresponding bits inside the BIOS flash directly) using tools like **RU.efi**. 
